@@ -1,6 +1,7 @@
 ##
 - [Mathews Correlation Coefficient](https://towardsdatascience.com/the-best-classification-metric-youve-never-heard-of-the-matthews-correlation-coefficient-3bf50a2f3e9a)
-
+    - MCC takes into account all four values in the confusion matrix, and a high value (close to 1) means that both classes are predicted well, even if one class is disproportionately under- (or over-) represented.
+    
 ##
 - [Probability Calibration Imbalanced dataset](https://machinelearningmastery.com/probability-calibration-for-imbalanced-classification/)
     - Calibrated Probabilities. Probabilities match the true likelihood of events.
