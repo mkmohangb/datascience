@@ -15,8 +15,9 @@
 ##
 - [Skip connections](https://theaisummer.com/skip-connections/)
     - vanishing gradient problem in the early layers because of the way backpropagation is done
-    - Skip connection provides an alternative path for the gradient (with backpropagation).
-    - In addition to vanishing gradients, also allow the later layers to learn from the information that was captured in the initial layers(lower semantic information extracted from the input). 
+    - Skip connection 
+        - provides an alternative path for the gradient.
+        - also allow the later layers to learn from the information that was captured in the initial layers(lower semantic information extracted from the input). 
     - Two ways to use it:
         - **addition** as in residual architectures
         - **concatenation** as in densely connected architectures - maximum information flow between layers in the network
