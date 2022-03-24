@@ -25,3 +25,6 @@
         - long skip connections - used in encoder-decoder architecture 
     - loss landscape changes significantly when introducing skip connections
 
+##
+- [Receptive field](https://theaisummer.com/receptive-field/)
+    - key parameter to map output feature to input region, defined as size of the region in the input that produces the feature.
