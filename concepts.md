@@ -12,3 +12,15 @@
           - algorithms that require their “probabilities” to be calibrated prior to use: SVM, Decision Trees & Ensembles like RF, GBM, k-NN.
       - Biases in the training data - A bias in the training dataset, such as a skew in the class distribution, means that the model will naturally predict a higher probability for the majority class than the minority class on average.
 
+##
+- [Skip connections](https://theaisummer.com/skip-connections/)
+    - vanishing gradient problem in the early layers because of the way backpropagation is done
+    - Skip connection provides an alternative path for the gradient (with backpropagation).
+    - In addition to vanishing gradients, also allow the later layers to learn from the information that was captured in the initial layers(lower semantic information extracted from the input). 
+    - Two ways to use it:
+        - **addition** as in residual architectures
+        - **concatenation** as in densely connected architectures - maximum information flow between layers in the network
+        - short skip connections - used along with consecutive conv. layers like in Resnet
+        - long skip connections - used in encoder-decoder architecture 
+    - loss landscape changes significantly when introducing skip connections
+
