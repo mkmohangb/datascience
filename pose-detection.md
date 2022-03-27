@@ -1,6 +1,7 @@
 ## Pose Estimation
 | Paper | Year | Training data | Keypoints |
 | ----- |------|---------------|-----------|
+| Joint Training of a Convolutional Network and a Graphical Model for Human Pose Estimation | 2014 | LSP/FLIC | 14 |
 | Convolutional Pose Machines | 2016 | MPII/LSP/FLIC | 16 |
 | Stacked Hourglass Networks for Human Pose Estimation | 2016 | MPII/FLIC | 16 |
 | Human pose estimation via Convolutional Part Heatmap Regression | 2016 | MPII/LSP | 16 |
