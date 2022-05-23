@@ -17,3 +17,10 @@
 [Revisiting skeleton-based action recognition](https://arxiv.org/pdf/2104.13586.pdf)
 
 <img width="688" alt="poseconv3d" src="https://user-images.githubusercontent.com/2610866/169755849-79d1cd1e-a8be-42b9-a75e-630d0738d16d.png">
+
+
+## Datasets
+
+  - [FineGym](https://sdolivia.github.io/FineGym/)
+  - [ActivityNet](http://activity-net.org/)
+  - [HVU](https://competitions.codalab.org/competitions/29546)
