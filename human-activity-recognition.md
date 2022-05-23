@@ -14,3 +14,6 @@
 
 <img width="669" alt="2s-agcn" src="https://user-images.githubusercontent.com/2610866/169750248-1bc1634a-3340-4bb9-a805-a22c0aa18924.png">
 
+[Revisiting skeleton-based action recognition](https://arxiv.org/pdf/2104.13586.pdf)
+
+<img width="688" alt="poseconv3d" src="https://user-images.githubusercontent.com/2610866/169755849-79d1cd1e-a8be-42b9-a75e-630d0738d16d.png">
