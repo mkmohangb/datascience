@@ -9,3 +9,8 @@
 | Towards Accurate Multi-person Pose estimation in the Wild | 2017 | COCO/Private | 17 |
 | Exploiting Offset-guided Network for Pose Estimation and Tracking | 2019 | COCO/PoseTrack | 17 |
 | BlazePose | 2020 | Private | 33 |
+
+
+[SmoothNet: A Plug-and-Play Network for Refining Human Poses in Videos](https://arxiv.org/abs/2112.13715)
+
+<img width="916" alt="smoothnet" src="https://user-images.githubusercontent.com/2610866/169821755-c195c9a4-21d7-46c6-8f46-7a78544395fe.png">
