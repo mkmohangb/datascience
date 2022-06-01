@@ -19,6 +19,17 @@
 <img width="688" alt="poseconv3d" src="https://user-images.githubusercontent.com/2610866/169755849-79d1cd1e-a8be-42b9-a75e-630d0738d16d.png">
 
 
+[MoViNets](https://arxiv.org/abs/2103.11511)
+  - Run TuNAS on Kinetics 600 and results reported on the datasets Kinetics 400, Kinetics 700, Moments in Time, Charades and Something Somthing V2.
+  - Stream buffer with Causal operations
+  - Cumulative Global Average Pooling (CGAP)
+  - **CausalSE** with Positional Encoding
+  - **ReZero** by applying zero-initialized learnable scalar weights that are multiplied with features before the final sum in a residual block.
+  - similar to ResNet-D where we apply 1x3x3 spatial average pooling before the convolution to improve feature representations.
+  - (2+1)D architectures, splitting up any 3D depthwise convolutions into a 2D spatial convolution followed by a 1D temporal convolution. We show that trivially changing a 3D architecture to (2+1)D decreases FLOPs while also keeping similar accuracy
+
+
+
 ## Datasets
 
   - [FineGym](https://sdolivia.github.io/FineGym/)
