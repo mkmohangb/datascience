@@ -19,7 +19,7 @@
 <img width="688" alt="poseconv3d" src="https://user-images.githubusercontent.com/2610866/169755849-79d1cd1e-a8be-42b9-a75e-630d0738d16d.png">
 
 
-[MoViNets](https://arxiv.org/abs/2103.11511)
+[MoViNets: Mobile Video Networks for Efficient Video Recognition](https://arxiv.org/abs/2103.11511)
   - Run TuNAS on Kinetics 600 and results reported on the datasets Kinetics 400, Kinetics 700, Moments in Time, Charades and Something Somthing V2.
   - Stream buffer with Causal operations
   - Cumulative Global Average Pooling (CGAP)
