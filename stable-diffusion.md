@@ -19,6 +19,10 @@ Diffusion process happens in the Latent space instead of image space.
 ![image](https://user-images.githubusercontent.com/2610866/207803720-8b938185-1697-4623-aea3-ae7cec694597.png)
 
 
+Classifier-free guidance
+
+Diffusion models can be used for various image generation related tasks like text-to-image, image inpainting, image style transfer, image super-resolution.
+
 ## References
  
   - https://lilianweng.github.io/posts/2021-07-11-diffusion-models/
