@@ -93,7 +93,12 @@
     - Attention is quadratic - pairwise innerproduct of each of the bubbles
     - Global attention by going over image patches
     <img width="657" alt="Screenshot 2023-01-06 at 4 49 19 PM" src="https://user-images.githubusercontent.com/2610866/211002436-42da776e-a251-4e48-a89d-9cd6ca13653d.png">
-
-    - 
+    
+    - Transformer is a generalization of MLP - in MLP 'w' is fixed while in Transformer it is computed on the fly - Permutation invariant ? 
+    <img width="347" alt="Screenshot 2023-01-06 at 8 10 13 PM" src="https://user-images.githubusercontent.com/2610866/211034122-6fd72b15-65ab-41ac-b4fb-2ca4def9d793.png">
+    <img width="417" alt="Screenshot 2023-01-06 at 8 18 38 PM" src="https://user-images.githubusercontent.com/2610866/211035751-0d7d9f0b-c6b3-4f79-a891-c7869d0a6c69.png">
+    
+    - with CNNs & LSTMs we introduce inductive priors or biases since the data is limited we restrict the model towards certain solutions. With lots of data, biased models will perform worse than an unbiased model, so Transformers as a more general model than MLP will shine in these scenarios.
+   
 17. DALL.E
 18. Wav2Vec - speech
