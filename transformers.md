@@ -13,7 +13,6 @@
     - provides some interpretability
     - great performance
     - bypasses bottleneck
-
     - If Attention gives access to any encoder state, why do we need RNNs at all?
     - **Attention is All You Need**
 
@@ -62,4 +61,33 @@
     - Feed Forward extracts complex features
     - In last layers, FF works towards next token
      
-     
+10. Why Transformers work?
+
+    [A primer in BERTology](https://arxiv.org/pdf/2002.12327.pdf)
+    - Transformers operate tokens(language words) as a vectorial space of 768+ features
+    - From the embeddings step, layer by layer, Transformers extract and build complex features that interact linearly and nonlinearly
+    - Attention moves new token interactions into each vector's features
+    - Feed forward operates on these features towards the training goal, making or extracting new features.
+    - Efficiency & Parallelism allow learning from massive data.
+11. Explainability
+12. Pretraining
+    - train for general unsupervised tasks and then fine-tune the model
+    <img width="399" alt="Screenshot 2023-01-06 at 1 01 28 PM" src="https://user-images.githubusercontent.com/2610866/210952306-25aa72bf-e6bb-4740-9c5e-56de34e5f91f.png">
+
+13. Existing Models
+    - GPT - Generative Pre-trained Transformer - just the Decoder
+    - BERT - Bidirectional Encoder Representations from Transformers - Encoder only - predict masked word, predict likelihood that sentence B comes after A
+    - GPT-2
+    - GPT-3 (175B params) - bias is a concern
+    - T5 - Text-to-Text Transfer Transformer - Refined Vanilla transformer - Encoder + Decoder
+        - every task is text-to-text
+        - very versatile for all kinds of tasks
+        - cola - Corpus of Linguistic Acceptablity
+        - stsb - semantic textual similiarty benchmark
+        <img width="831" alt="Screenshot 2023-01-06 at 1 10 47 PM" src="https://user-images.githubusercontent.com/2610866/210953765-36bb1897-2b67-4eec-92c4-1eea62ba1dfc.png">
+
+14. HuggingFace ecosystem
+15. Vision Transformers - more general than Convolution
+    - since it can look at relations between image patches from any corner of the image unlike CNN which does local details aggregated in a hierarchical manner?
+17. DALL.E
+18. Wav2Vec - speech
