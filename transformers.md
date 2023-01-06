@@ -89,5 +89,11 @@
 14. HuggingFace ecosystem
 15. Vision Transformers - more general than Convolution
     - since it can look at relations between image patches from any corner of the image unlike CNN which does local details aggregated in a hierarchical manner?
+    - [Paper Explanation by Yannic Kilcher](https://www.youtube.com/watch?v=TrdevFK_am4)
+    - Attention is quadratic - pairwise innerproduct of each of the bubbles
+    - Global attention by going over image patches
+    <img width="657" alt="Screenshot 2023-01-06 at 4 49 19 PM" src="https://user-images.githubusercontent.com/2610866/211002436-42da776e-a251-4e48-a89d-9cd6ca13653d.png">
+
+    - 
 17. DALL.E
 18. Wav2Vec - speech
