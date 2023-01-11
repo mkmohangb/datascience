@@ -25,6 +25,7 @@
     - Residual connections
     - Autoregressive decoding
     - **Parallel** training
+    - Normalization employed is **Layer Normalization**. See this [video](https://www.youtube.com/watch?v=l_3zj6HeWUE) for overview of Normalization
   <img width="359" alt="Screenshot 2023-01-06 at 11 16 43 AM" src="https://user-images.githubusercontent.com/2610866/210938353-840ee8b8-4b75-46c7-b384-aa39f38c531d.png">
 
 
