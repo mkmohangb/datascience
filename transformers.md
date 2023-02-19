@@ -103,3 +103,5 @@
    
 17. DALL.E
 18. Wav2Vec - speech
+19. Implementation tutorials
+    - [GPT from scratch](https://www.youtube.com/watch?v=kCc8FmEb1nY) by Karpathy 
